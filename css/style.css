@@ -38,7 +38,7 @@ body {
 
 main,
 .sidebar {
-    margin: 1vh auto;
+    margin: 3vh auto;
 }
 
 article {
@@ -71,4 +71,12 @@ p {
 
 .moreFavoritesLink {
     margin-top: 1vh;
+}
+
+.smallTopMargin {
+    margin-top: 1vh
+}
+
+.test{
+    max-width: 100%;
 }
