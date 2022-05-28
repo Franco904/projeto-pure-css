@@ -5,15 +5,12 @@
 
 body {
     background-color: #fff;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .simpleBorder {
     border: 1px solid black;
-}
-
-.pushRight {
-
-    margin-left: auto
 }
 
 .blackText {
@@ -38,11 +35,13 @@ body {
 
 main,
 .sidebar {
-    margin: 3vh auto;
+    margin-top: 3vh;
 }
 
+
+
 article {
-    padding: 1vh 3vw;
+    padding: 1vh 1vw;
 }
 
 article a {
@@ -77,6 +76,10 @@ p {
     margin-top: 1vh
 }
 
-.test{
-    max-width: 100%;
+.centerContent{
+    justify-content: center;
+}
+
+.smallLeftPadding {
+    padding-left: 10px;
 }
