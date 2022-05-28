@@ -32,7 +32,12 @@ body {
     font-weight: bold;
 }
 
-main {
+.italic {
+    font-style: oblique;
+}
+
+main,
+.sidebar {
     margin: 1vh auto;
 }
 
@@ -44,11 +49,11 @@ article a {
     color: blue;
 }
 
-p{
+p {
     margin-bottom: 2vh;
 }
 
-.articleTitle{
+.articleTitle {
     line-height: 1.7;
     border-bottom: 2px solid #f7f7f7d0;
 }
@@ -56,4 +61,14 @@ p{
 .articleBody {
     margin-top: 3vh;
     line-height: 1.7;
+}
+
+.favoriteCard {
+    margin-top: 1vh;
+    padding-bottom: 1vh;
+    border-bottom: 2px solid #f7f7f7d0;
+}
+
+.moreFavoritesLink {
+    margin-top: 1vh;
 }
