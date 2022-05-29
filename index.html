@@ -1,319 +1,409 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css"
-        integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap"
-        rel="stylesheet">
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.1.0/build/pure-min.css"
+      integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
 
     <title>PURE</title>
-</head>
+  </head>
 
-<body class="pure-g centerContent">
-    <div class="pure-g pure-u-1" id="first-nav-border">
-        <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked"
-            id="first-nav">
-            <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">ABOUT</a></li>
-                <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">COOKBOOK</a></li>
-                <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">SHOP</a></li>
-                <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">SUBSCRIBE</a></li>
-                <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">SAVED</a></li>
-            </ul>
+  <body class="pure-g centerContent">
+    <header class="pure-g pure-u-1">
+      <div class="pure-g pure-u-1" id="first-nav-border">
+        <div
+          class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked"
+          id="first-nav"
+        >
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">ABOUT</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">COOKBOOK</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">SHOP</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">SUBSCRIBE</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">SAVED</a>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
+      <!-- Bloco para o passo 2 - header -->
+      <img class="pure-img" src="./img/logo.png" id="img-logo" />
+      <div class="pure-g pure-u-1" id="second-nav-border">
+        <div
+          class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked"
+        >
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">ALL RECIPES</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">BREAKFAST</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">SALAD</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">SOUP</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">DINNER</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">DESSERT</a>
+            </li>
+            <li class="pure-menu-item">
+              <a href="#" class="nav-link" id="nav-link">FAVORITES</a>
+            </li>
+            <input type="search" name="search-field" placeholder="Search..." />
+          </ul>
+        </div>
+      </div>
+      <div class="pure-u-1-1 centerText" id="cookbook-sell">
+        <p class="mediumFont">
+          Our cookbook, Love Real Food, is here!
+          <a href="#" class="nav-link"> Get your copy ↣</a>
+        </p>
+        <div class="blank-space"></div>
+        <div id="container-img-cookbook">
+          <img
+            src="https://cookieandkate.com/images/2017/05/love-real-food-150.png"
+            id="img-cookbook"
+            width="60"
+            height="100"
+          />
+        </div>
+      </div>
+    </header>
     <main>
-        <header class="pure-g pure-u-1">
-            <!-- Bloco para o passo 2 - header -->
-            <img src="./img/logo.png" id="img-logo">
-            <div class="pure-g pure-u-1" id="second-nav-border">
-                <div
-                    class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked">
-                    <ul class="pure-menu-list">
-                        <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">ALL RECIPES</a></li>
-                        <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">BREAKFAST</a></li>
-                        <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">SALAD</a></li>
-                        <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">SOUP</a></li>
-                        <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">DINNER</a></li>
-                        <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">DESSERT</a></li>
-                        <li class="pure-menu-item"><a href="#" class="nav-link" id="nav-link">FAVORITES</a></li>
-                        <input type="search" name="search-field" placeholder="Search...">
-                    </ul>
-                </div>
-            </div>
-            <div class="pure-u-1-1 centerText" id="cookbook-sell">
-                <p class="mediumFont">Our cookbook, Love Real Food, is here! <a href="#" class="nav-link"> Get your copy
-                        ↣</a></p>
-                <div class="blank-space"></div>
-                <div id="container-img-cookbook">
-                    <img src="https://cookieandkate.com/images/2017/05/love-real-food-150.png" id="img-cookbook"
-                        width="60" height="100">
-                </div>
+      <div class="pure-u-1 pure-u-md-14-24" id="articles-section">
+        <!-- Bloco para o passo 3 - Main -->
+        <article>
+          <!-- Bloco para o passo 4 - artigos -->
+          <h2 class="articleTitle">
+            <a class="blackText noUnderline" href="#">What to Cook This May</a>
+          </h2>
+          <div>
+            <span class="smallFont"
+              >May 1, 2022 - <a class="blackText" href="#">64 Comments</a></span
+            >
+          </div>
+          <div>
+            <section class="articleBody">
+              <img
+                class="pure-img"
+                src="https://cookieandkate.com/images/2016/05/what-to-cook-this-may-17-550x757.jpg"
+                alt="Imagem de um prato mexicano"
+              />
+              <div class="articleBody">
+                <p>
+                  <span class="bold">May is here!</span> The trees are greener
+                  by the day and I’m thriving on the abundant sunshine. Baby
+                  Grace is happy, wiggly, and giggly. She’s an enthusiastic and
+                  adventurous little eater so far. Cookie is recovering well
+                  from a minor paw-under-stroller accident. Life is good.
+                </p>
+                <p>
+                  After last year’s failed tomato seedlings, I’ve given up on
+                  growing our garden from seed. Grace and I picked out this
+                  year’s tomato, pepper and basil plants this week, with an
+                  emphasis on yellow tomatoes since we decided we like those
+                  best. She plucked a few basil leaves off the plant to munch on
+                  before I even knew what was happening!
+                </p>
+                <p>
+                  We have a couple of holidays coming up. For Cinco de Mayo,
+                  <a href="#">browse Mexican recipes here</a> (start with
+                  <a href="#">the guacamole</a> and <a href="#">margaritas</a>).
+                  For Mother’s Day, check out my
+                  <a href="#">spring brunch roundup</a>.
+                </p>
+                <p>
+                  The farmers’ markets will become more colorful each week this
+                  month. Below, you’ll find some of my favorite spring recipes
+                  so we can make the most of our fresh produce.
+                </p>
+              </div>
+            </section>
+          </div>
+        </article>
+        <article>
+          <h2 class="articleTitle">
+            <a class="blackText noUnderline" href="#">Asparagus</a>
+          </h2>
+          <div>
+            <section class="articleBody">
+              <img
+                class="pure-img"
+                src="https://cookieandkate.com/images/2016/03/roasted-asparagus-550x757.jpg"
+                alt="Imagem de um aspargo"
+              />
+              <div class="articleBody">
+                <a href="#">Perfect Roasted Asparagus</a>
 
-            </div>
-        </header>
+                <p>Gluten free and easily vegan (skip the cheese)</p>
 
-        <div class="pure-u-1 pure-u-md-14-24" id="articles-section">
-            <!-- Bloco para o passo 3 - Main -->
-            <article>
-                <!-- Bloco para o passo 4 - artigos -->
-                <h2 class="articleTitle">
-                    <a class="blackText noUnderline" href="#">What to Cook This May</a>
-                </h2>
-                <div>
-                    <span class="smallFont">May 1, 2022 - <a class="blackText" href="#">64 Comments</a></span>
-                </div>
-                <div>
-                    <section class="articleBody">
-                        <img class="pure-img"
-                            src="https://cookieandkate.com/images/2016/05/what-to-cook-this-may-17-550x757.jpg"
-                            alt="Imagem de um prato mexicano" />
-                        <div class="articleBody">
-                            <p>
-                                <span class="bold">May is here!</span> The trees are greener
-                                by the day and I’m thriving on the abundant sunshine. Baby
-                                Grace is happy, wiggly, and giggly. She’s an enthusiastic and
-                                adventurous little eater so far. Cookie is recovering well
-                                from a minor paw-under-stroller accident. Life is good.
-                            </p>
-                            <p>
-                                After last year’s failed tomato seedlings, I’ve given up on
-                                growing our garden from seed. Grace and I picked out this
-                                year’s tomato, pepper and basil plants this week, with an
-                                emphasis on yellow tomatoes since we decided we like those
-                                best. She plucked a few basil leaves off the plant to munch on
-                                before I even knew what was happening!
-                            </p>
-                            <p>
-                                We have a couple of holidays coming up. For Cinco de Mayo,
-                                <a href="#">browse Mexican recipes here</a> (start with
-                                <a href="#">the guacamole</a> and <a href="#">margaritas</a>).
-                                For Mother’s Day, check out my
-                                <a href="#">spring brunch roundup</a>.
-                            </p>
-                            <p>
-                                The farmers’ markets will become more colorful each week this
-                                month. Below, you’ll find some of my favorite spring recipes
-                                so we can make the most of our fresh produce.
-                            </p>
-                        </div>
-                    </section>
-                </div>
-            </article>
-            <article>
-                <h2 class="articleTitle">
-                    <a class="blackText noUnderline" href="#">Asparagus</a>
-                </h2>
-                <div>
-                    <section class="articleBody">
-                        <img class="pure-img"
-                            src="https://cookieandkate.com/images/2016/03/roasted-asparagus-550x757.jpg"
-                            alt="Imagem de um aspargo" />
-                        <div class="articleBody">
-                            <a href="#">Perfect Roasted Asparagus</a>
+                <p>
+                  “This is an easy and very tasty way to prepare asparagus. I
+                  could eat it every day. My 8 year old loves it too. I add
+                  parmesan and lemon. I roast the asparagus in my oven for 9
+                  minutes. Thank you for the recipe!” – Anna
+                </p>
 
-                            <p>Gluten free and easily vegan (skip the cheese)</p>
+                <p><a href="#">More asparagus recipes »</a></p>
 
-                            <p>
-                                “This is an easy and very tasty way to prepare asparagus. I
-                                could eat it every day. My 8 year old loves it too. I add
-                                parmesan and lemon. I roast the asparagus in my oven for 9
-                                minutes. Thank you for the recipe!” – Anna
-                            </p>
+                <p>
+                  <a class="blackText bold italic" href="#"
+                    >Show me the fruit and vegetables »</a
+                  >
+                </p>
+              </div>
+            </section>
+          </div>
+        </article>
+        <article>
+          <h2 class="articleTitle">
+            <a class="blackText noUnderline" href="#"
+              >Perfect Roasted Butternut Squash</a
+            >
+          </h2>
+          <div>
+            <span class="smallFont"
+              >April 26, 2022 -
+              <a class="blackText" href="#">24 Comments</a></span
+            >
+          </div>
+          <div>
+            <section class="articleBody">
+              <img
+                class="pure-img"
+                src="https://cookieandkate.com/images/2022/04/roasted-butternut-squash-on-serving-platter-768x1155.jpg"
+                alt="Imagem de um prato"
+              />
+              <div class="articleBody">
+                <p>
+                  <span class="bold"
+                    >Want to know something cool about roasted butternut
+                    squash?</span
+                  >
+                  You don’t have to peel it before roasting. That’s right. You
+                  do not have to suffer through peeling an entire slippery
+                  butternut squash if you’re going to roast it. The skin is
+                  perfectly safe to eat, and it’s hardly noticeable after a nice
+                  roast in a hot oven. You can see proof
+                  <a href="#">here</a> and <a href="#">here</a>.
+                </p>
+                <p>
+                  Butternut squash is technically a winter squash, and it is
+                  indeed hearty and wonderful on a chilly day. Spring zucchini
+                  hasn’t arrived yet, so let’s use up the butternut in the
+                  pantry while it’s still good.
+                </p>
+              </div>
+              <img
+                class="pure-img"
+                src="https://cookieandkate.com/images/2022/04/how-to-cut-butternut-squash-550x378.jpg"
+                alt="Imagem de um prato"
+              />
+              <p>
+                Butternut squash is naturally quite sweet.
+                <span class="bold"
+                  >Roasted butternut squash is my favorite preparation
+                </span>
+                because the edges caramelize against the pan, yielding delicious
+                savory bits that help balance the sweetness.
+              </p>
+              <p>
+                <span class="bold"
+                  >Roasted butternut makes a great side dish with a few
+                  garnishes on top</span
+                >, but it’s more versatile than that. Over the years, I’ve used
+                it in risotto and soup, hearty fall and winter salads, and even
+                tacos. Again, I love to contrast the sweetness with spicy and
+                savory ingredients, and you’ll find a list of suggestions below.
+              </p>
+              <p><a class="blackText" href="#">Continue to the recipe »</a></p>
+            </section>
+          </div>
+        </article>
+      </div>
 
-                            <p><a href="#">More asparagus recipes »</a></p>
+      <div class="pure-u-1 pure-u-md-10-24" id="sidebar">
+        <!-- Bloco para o passo 5 - Barra lateral -->
+        <div>
+          <div>
+            <!-- Bloco para o passo 6 - Cartão sobre a autora -->
 
-                            <p>
-                                <a class="blackText bold italic" href="#">Show me the fruit and vegetables »</a>
-                            </p>
-                        </div>
-                    </section>
-                </div>
-            </article>
-            <article>
-                <h2 class="articleTitle">
-                    <a class="blackText noUnderline" href="#">Perfect Roasted Butternut Squash</a>
-                </h2>
-                <div>
-                    <span class="smallFont">April 26, 2022 -
-                        <a class="blackText" href="#">24 Comments</a></span>
-                </div>
-                <div>
-                    <section class="articleBody">
-                        <img class="pure-img"
-                            src="https://cookieandkate.com/images/2022/04/roasted-butternut-squash-on-serving-platter-768x1155.jpg"
-                            alt="Imagem de um prato" />
-                        <div class="articleBody">
-                            <p>
-                                <span class="bold">Want to know something cool about roasted butternut
-                                    squash?</span>
-                                You don’t have to peel it before roasting. That’s right. You
-                                do not have to suffer through peeling an entire slippery
-                                butternut squash if you’re going to roast it. The skin is
-                                perfectly safe to eat, and it’s hardly noticeable after a nice
-                                roast in a hot oven. You can see proof
-                                <a href="#">here</a> and <a href="#">here</a>.
-                            </p>
-                            <p>
-                                Butternut squash is technically a winter squash, and it is
-                                indeed hearty and wonderful on a chilly day. Spring zucchini
-                                hasn’t arrived yet, so let’s use up the butternut in the
-                                pantry while it’s still good.
-                            </p>
-                        </div>
-                        <img class="pure-img"
-                            src="https://cookieandkate.com/images/2022/04/how-to-cut-butternut-squash-550x378.jpg"
-                            alt="Imagem de um prato" />
-                        <p>
-                            Butternut squash is naturally quite sweet.
-                            <span class="bold">Roasted butternut squash is my favorite preparation
-                            </span>
-                            because the edges caramelize against the pan, yielding delicious
-                            savory bits that help balance the sweetness.
-                        </p>
-                        <p>
-                            <span class="bold">Roasted butternut makes a great side dish with a few
-                                garnishes on top</span>, but it’s more versatile than that. Over the years, I’ve used
-                            it in risotto and soup, hearty fall and winter salads, and even
-                            tacos. Again, I love to contrast the sweetness with spicy and
-                            savory ingredients, and you’ll find a list of suggestions below.
-                        </p>
-                        <p><a class="blackText" href="#">Continue to the recipe »</a></p>
-                    </section>
-                </div>
-            </article>
+            <img
+              class="pure-img"
+              src="https://cookieandkate.com/images/2014/02/kate-600-550x229.jpg"
+              alt="Foto da autora"
+            />
+            <p class="smallTopMargin smallFont">
+              Hello! I cook fresh, vegetarian recipes. My dog, Cookie, catches
+              the crumbs. <a href="#">About C+K »</a>
+            </p>
+            <nav class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+              <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#">Contact</a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#">⋄ New Here?</a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#">⋄ Shop</a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#">⋄ Subscribe</a>
+                </li>
+              </ul>
+            </nav>
+            <nav
+              class="pure-g pure-menu pure-menu-horizontal pure-menu-scrollable"
+            >
+              <ul class="pure-u-1-6 pure-menu-list">
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#"
+                    ><img
+                      class="pure-img test"
+                      src="https://img.icons8.com/material-rounded/344/facebook.png"
+                  /></a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#"
+                    ><img
+                      class="pure-img test"
+                      src="https://img.icons8.com/ios-glyphs/344/pinterest.png"
+                  /></a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#"
+                    ><img
+                      class="pure-img test"
+                      src="https://img.icons8.com/ios-glyphs/344/instagram-new.png"
+                  /></a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#"
+                    ><img
+                      class="pure-img test"
+                      src="https://img.icons8.com/ios-glyphs/344/twitter--v1.png"
+                  /></a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#"
+                    ><img
+                      class="pure-img test"
+                      src="https://img.icons8.com/ios-glyphs/344/youtube-play.png"
+                  /></a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#"
+                    ><img
+                      class="pure-img test"
+                      src="https://img.icons8.com/ios-glyphs/344/like--v1.png"
+                  /></a>
+                </li>
+                <li class="pure-menu-item">
+                  <a class="pure-menu-link" href="#"
+                    ><img
+                      class="pure-img test"
+                      src="https://img.icons8.com/ios-glyphs/344/rss.png"
+                  /></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="simpleBorder">
+            <!-- Bloco para o passo 7 - Cartão sobre livre -->
+            Cartão sobre livro
+            <nav>Links para compra do livro</nav>
+          </div>
         </div>
 
-        <div class="pure-u-1 pure-u-md-10-24" id="sidebar">
-            <!-- Bloco para o passo 5 - Barra lateral -->
-            <div>
-                <div>
-                    <!-- Bloco para o passo 6 - Cartão sobre a autora -->
-
-                    <img class="pure-img" src="https://cookieandkate.com/images/2014/02/kate-600-550x229.jpg"
-                        alt="Foto da autora" />
-                    <p class="smallTopMargin smallFont">
-                        Hello! I cook fresh, vegetarian recipes. My dog, Cookie, catches
-                        the crumbs. <a href="#">About C+K »</a>
-                    </p>
-                    <nav class="pure-menu pure-menu-horizontal pure-menu-scrollable">
-                        <ul class="pure-menu-list">
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#">Contact</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#">⋄ New Here?</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#">⋄ Shop</a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#">⋄ Subscribe</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav class="pure-g pure-menu pure-menu-horizontal pure-menu-scrollable">
-                        <ul class="pure-u-1-6 pure-menu-list">
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#"><img class="pure-img test"
-                                        src="https://img.icons8.com/material-rounded/344/facebook.png" /></a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#"><img class="pure-img test"
-                                        src="https://img.icons8.com/ios-glyphs/344/pinterest.png" /></a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#"><img class="pure-img test"
-                                        src="https://img.icons8.com/ios-glyphs/344/instagram-new.png" /></a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#"><img class="pure-img test"
-                                        src="https://img.icons8.com/ios-glyphs/344/twitter--v1.png" /></a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#"><img class="pure-img test"
-                                        src="https://img.icons8.com/ios-glyphs/344/youtube-play.png" /></a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#"><img class="pure-img test"
-                                        src="https://img.icons8.com/ios-glyphs/344/like--v1.png" /></a>
-                            </li>
-                            <li class="pure-menu-item">
-                                <a class="pure-menu-link" href="#"><img class="pure-img test"
-                                        src="https://img.icons8.com/ios-glyphs/344/rss.png" /></a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <div class="simpleBorder">
-                    <!-- Bloco para o passo 7 - Cartão sobre livre -->
-                    Cartão sobre livro
-                    <nav>Links para compra do livro</nav>
-                </div>
-            </div>
-
-            <div class="simpleBorder" id="container-new-recipe">
-                <!-- Bloco para o passo 8 - Inscrição para emails -->
-                <p class="mediumFont bold italic">Don't miss a new recipe</p>
-                <input type="email" name="email" placeholder="Email address...">
-                <button id="button-subscribe">SUBSCRIBE</button>
-            </div>
-
-            <div>
-                <h3 class="articleTitle">Popular recipes</h3>
-                <div class="pure-g favoriteCard">
-                    <div class="pure-u-1-5">
-                        <img class="pure-img"
-                            src="https://cookieandkate.com/images/2020/04/best-granola-bars-recipe-1-80x110.jpg"
-                            alt="Imagem de torradas" />
-                    </div>
-                    <p class="pure-u-2-3 smallLeftPadding">
-                        <a class="noUnderline blackText" href="#">Easy No-Bake Granola Bars</a>
-                    </p>
-                </div>
-                <div class="pure-g favoriteCard">
-                    <div class="pure-u-1-5">
-                        <img class="pure-img"
-                            src="https://cookieandkate.com/images/2020/02/best-stuffed-shells-recipe-3-80x110.jpg"
-                            alt="Imagem de um prato" />
-                    </div>
-                    <p class="pure-u-2-3 smallLeftPadding">
-                        <a class="noUnderline blackText" href="#">Best Stuffed Shells</a>
-                    </p>
-                </div>
-                <div class="moreFavoritesLink">
-                    <a class="blackText italic" href="#">More favorites</a>
-                </div>
-            </div>
+        <div class="simpleBorder" id="container-new-recipe">
+          <!-- Bloco para o passo 8 - Inscrição para emails -->
+          <p class="mediumFont bold italic">Don't miss a new recipe</p>
+          <input type="email" name="email" placeholder="Email address..." />
+          <button id="button-subscribe">SUBSCRIBE</button>
         </div>
+
+        <div>
+          <h3 class="articleTitle">Popular recipes</h3>
+          <div class="pure-g favoriteCard">
+            <div class="pure-u-1-5">
+              <img
+                class="pure-img"
+                src="https://cookieandkate.com/images/2020/04/best-granola-bars-recipe-1-80x110.jpg"
+                alt="Imagem de torradas"
+              />
+            </div>
+            <p class="pure-u-2-3 smallLeftPadding">
+              <a class="noUnderline blackText" href="#"
+                >Easy No-Bake Granola Bars</a
+              >
+            </p>
+          </div>
+          <div class="pure-g favoriteCard">
+            <div class="pure-u-1-5">
+              <img
+                class="pure-img"
+                src="https://cookieandkate.com/images/2020/02/best-stuffed-shells-recipe-3-80x110.jpg"
+                alt="Imagem de um prato"
+              />
+            </div>
+            <p class="pure-u-2-3 smallLeftPadding">
+              <a class="noUnderline blackText" href="#">Best Stuffed Shells</a>
+            </p>
+          </div>
+          <div class="moreFavoritesLink">
+            <a class="blackText italic" href="#">More favorites</a>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="pure-g pure-u-1 simpleBorder">
-        <!-- Bloco para o passo 10 - Footer -->
-        <div class="pure-u-1-1 simpleBorder">
-            Stay in touch Form + button Links redes sociais
+      <!-- Bloco para o passo 10 - Footer -->
+      <div class="pure-u-1-1 simpleBorder">
+        Stay in touch Form + button Links redes sociais
+      </div>
+      <div class="pure-u-1-1 simpleBorder">
+        <img src="#" alt="foto cachorro" />
+        <nav>Pequena barra de navegação</nav>
+        <div>
+          <p>Copyright</p>
         </div>
-        <div class="pure-u-1-1 simpleBorder">
-            <img src="#" alt="foto cachorro" />
-            <nav>Pequena barra de navegação</nav>
-            <div>
-                <p>Copyright</p>
-            </div>
-        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
