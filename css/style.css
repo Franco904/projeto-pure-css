@@ -95,11 +95,6 @@ body {
     height: 10vh;
 }
 
-main {
-    padding-left: 15vw;
-    padding-right: 15vw;
-}
-
 #articles-section,
 #sidebar {
     margin-top: 3vh;
