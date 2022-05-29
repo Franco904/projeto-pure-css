@@ -104,15 +104,20 @@ body {
     margin: 32px 0;
     padding: 16px 12px 12px 12px;
     background-color: #f9f9f9;
-    border-width: 2px;
+    border: 2px solid black;
 }
 
 #button-subscribe {
+
     padding: 8px;
     color: white;
     background-color: rgb(29, 28, 28);
     border: none;
     cursor: pointer;
+}
+
+#button-subs {
+    margin-left: 1vw;
 }
 
 #button-subscribe:hover {
@@ -166,5 +171,9 @@ p {
     #container-img-cookbook {
         display: none;
 
+    }
+
+    #button-subs {
+        margin-top: 1vh;
     }
 }
