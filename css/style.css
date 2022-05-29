@@ -114,6 +114,25 @@ main {
     margin-top: 3vh;
 }
 
+#container-new-recipe {
+    margin: 32px 0;
+    padding: 16px 12px 12px 12px;
+    background-color: #f9f9f9;
+    border-width: 2px;
+}
+
+#button-subscribe {
+    padding: 8px;
+    color: white;
+    background-color: rgb(29, 28, 28);
+    border: none;
+    cursor: pointer;
+}
+
+#button-subscribe:hover {
+    background-color: #31ab9d;
+    transition-duration: .2s;
+}
 
 article {
     padding: 1vh 1vw;
