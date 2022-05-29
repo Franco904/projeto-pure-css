@@ -62,13 +62,10 @@ body {
     background-color: #F7F7F7;
 }
 
-#nav-link {
-    text-decoration: none;
-    margin-right: 25px;
-}
-
 .nav-link {
     color: #34495e;
+    text-decoration: none;
+    margin-right: 25px;
 }
 
 .nav-link:hover {
