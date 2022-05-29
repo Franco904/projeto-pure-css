@@ -147,6 +147,10 @@ p {
     line-height: 1.7;
 }
 
+.articleBody img {
+    margin: auto;
+}
+
 .favoriteCard {
     margin-top: 1vh;
     padding-bottom: 1vh;
