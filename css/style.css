@@ -13,7 +13,7 @@ body {
 }
 
 .blackText {
-    color: black;
+    color: black !important;
 }
 
 .noUnderline {
@@ -63,13 +63,11 @@ body {
 }
 
 .nav-link {
-    color: #34495e;
-    text-decoration: none;
-    margin-right: 25px;
+    color: #34495e !important;
 }
 
 .nav-link:hover {
-    color: #7bdcb5;
+    color: #7bdcb5 !important;
     transition-duration: .2s;
 }
 
