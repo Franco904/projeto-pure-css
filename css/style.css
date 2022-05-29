@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Tiro Devanagari Sanskrit', serif !important;
 }
 
 body {
     background-color: #fff;
-    padding-left: 3vw;
-    padding-right: 3vw;
 }
 
 .simpleBorder {
@@ -21,6 +20,10 @@ body {
     text-decoration: none;
 }
 
+.mediumFont {
+    font-size: 21px;
+}
+
 .smallFont {
     font-size: 13px;
 }
@@ -33,11 +36,83 @@ body {
     font-style: oblique;
 }
 
-main,
-.sidebar {
-    margin-top: 3vh;
+.smallTopMargin {
+    margin-top: 1vh
 }
 
+.smallLeftPadding {
+    padding-left: 10px;
+}
+
+.centerContent {
+    justify-content: center;
+}
+
+.centerText {
+    text-align: center;
+}
+
+#first-nav-border {
+    border-top: 4px solid black;
+}
+
+#first-nav {
+    padding-left: 15vw;
+    margin-bottom: 40px;
+    background-color: #F7F7F7;
+}
+
+#nav-link {
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.nav-link:visited {
+    color: #34495e;
+}
+
+.nav-link:hover {
+    color: #7bdcb5;
+    transition-duration: .2s;
+}
+
+.blank-space {
+    width: 16vw;
+}
+
+#second-nav-border {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 12px;
+}
+
+#cookbook-sell {
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding: 15px;
+    height: 16px;
+    margin: 32px 0 32px 0;
+}
+
+#container-img-cookbook {
+    display: flex;
+    align-items: center;
+}
+
+#img-cookbook {
+    object-fit: contain;
+}
+
+main {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#articles-section,
+#sidebar {
+    margin-top: 3vh;
+}
 
 
 article {
@@ -58,7 +133,7 @@ p {
 }
 
 .articleBody {
-    margin-top: 3vh;
+    margin: 3vh 0 0 0;
     line-height: 1.7;
 }
 
@@ -72,14 +147,9 @@ p {
     margin-top: 1vh;
 }
 
-.smallTopMargin {
-    margin-top: 1vh
-}
 
-.centerContent{
-    justify-content: center;
-}
-
-.smallLeftPadding {
-    padding-left: 10px;
+@media (max-width: 720px) {
+    #img-logo {
+        display: none;
+    }
 }
