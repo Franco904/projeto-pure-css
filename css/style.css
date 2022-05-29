@@ -8,9 +8,7 @@ body {
     background-color: #fff;
 }
 
-.simpleBorder {
-    border: 1px solid black;
-}
+
 
 .blackText {
     color: black !important;
@@ -71,10 +69,6 @@ body {
     transition-duration: .2s;
 }
 
-.blank-space {
-    width: 16vw;
-}
-
 #second-nav-border {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -84,19 +78,16 @@ body {
 #cookbook-sell {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #f7f7f7;
-    padding: 15px;
-    height: 16px;
-    margin: 32px 0 32px 0;
+    padding-top: 15px;
+    height: 5vh;
+    margin: 32px 0;
 }
 
 #container-img-cookbook {
     display: flex;
     align-items: center;
-}
-
-#img-cookbook {
-    object-fit: contain;
 }
 
 main {
@@ -163,4 +154,11 @@ p {
 
 .formTopMargin {
     margin-top: 5px;
+}
+
+@media screen and (max-width: 48em) {
+    #container-img-cookbook {
+        display: none;
+
+    }
 }
