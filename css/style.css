@@ -88,6 +88,11 @@ body {
 #container-img-cookbook {
     display: flex;
     align-items: center;
+    margin-left: 3vw;
+}
+
+#container-img-cookbook img {
+    height: 10vh;
 }
 
 main {
