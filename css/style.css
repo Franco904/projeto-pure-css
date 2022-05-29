@@ -165,10 +165,3 @@ p {
 .moreFavoritesLink {
     margin-top: 1vh;
 }
-
-
-@media (max-width: 720px) {
-    #img-logo {
-        display: none;
-    }
-}
