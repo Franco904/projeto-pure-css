@@ -37,7 +37,7 @@ body {
 }
 
 .smallTopMargin {
-    margin-top: 1vh
+    margin-top: 1vh;
 }
 
 .smallLeftPadding {
@@ -159,4 +159,8 @@ p {
 
 .moreFavoritesLink {
     margin-top: 1vh;
+}
+
+.formTopMargin {
+    margin-top: 5px;
 }
