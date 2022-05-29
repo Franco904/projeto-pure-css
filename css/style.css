@@ -152,8 +152,14 @@ p {
     margin-top: 1vh;
 }
 
-.formTopMargin {
+.formContainer {
     margin-top: 5px;
+
+}
+
+.formContainer form {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 48em) {
