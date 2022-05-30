@@ -50,6 +50,11 @@ body {
     text-align: center;
 }
 
+header {
+    display: flex !important;
+    justify-content: center !important;
+}
+
 #first-nav-border {
     border-top: 4px solid black;
 }
