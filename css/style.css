@@ -42,6 +42,10 @@ body {
     padding-left: 10px;
 }
 
+.smallSidePadding {
+    padding: 0 10px;
+}
+
 .centerContent {
     justify-content: center;
 }
@@ -175,6 +179,10 @@ p {
     display: flex;
     justify-content: center;
 }
+
+
+
+
 
 @media screen and (max-width: 48em) {
     #container-img-cookbook {
