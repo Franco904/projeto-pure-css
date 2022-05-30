@@ -73,6 +73,7 @@ body {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     margin-top: 12px;
+
 }
 
 #cookbook-sell {
@@ -163,7 +164,7 @@ p {
 
 .formContainer {
     margin-top: 5px;
-
+    margin-left: 1vw;
 }
 
 .formContainer form {
@@ -179,5 +180,9 @@ p {
 
     #button-subs {
         margin-top: 1vh;
+    }
+
+    .formContainer {
+        margin-left: 0
     }
 }
