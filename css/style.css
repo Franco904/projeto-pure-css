@@ -168,8 +168,7 @@ p {
 }
 
 .formContainer {
-    margin-top: 5px;
-    margin-left: 1vw;
+    margin: 5px 0 5px 1vw;
 }
 
 .formContainer form {
